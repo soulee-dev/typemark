@@ -1,0 +1,17 @@
+[package]
+name = "typemark"
+description = "A fast, browser-free typesetting engine that turns Markdown and CSS into pixel-identical PDFs and previews."
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+repository.workspace = true
+authors.workspace = true
+rust-version.workspace = true
+
+[dependencies]
+typemark-syntax.workspace = true
+typemark-style.workspace = true
+typemark-text.workspace = true
+typemark-layout.workspace = true
+typemark-pdf.workspace = true
+typemark-svg.workspace = true

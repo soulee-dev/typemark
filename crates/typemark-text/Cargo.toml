@@ -1,0 +1,12 @@
+[package]
+name = "typemark-text"
+description = "Font discovery, shaping and line breaking for Typemark"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+repository.workspace = true
+authors.workspace = true
+rust-version.workspace = true
+
+[dependencies]
+rustybuzz = "0.20"

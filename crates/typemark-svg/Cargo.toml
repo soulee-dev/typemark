@@ -1,0 +1,13 @@
+[package]
+name = "typemark-svg"
+description = "SVG backend for Typemark"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+repository.workspace = true
+authors.workspace = true
+rust-version.workspace = true
+
+[dependencies]
+typemark-layout.workspace = true
+typemark-text.workspace = true

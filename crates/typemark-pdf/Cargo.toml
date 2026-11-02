@@ -1,0 +1,14 @@
+[package]
+name = "typemark-pdf"
+description = "PDF backend for Typemark"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+repository.workspace = true
+authors.workspace = true
+rust-version.workspace = true
+
+[dependencies]
+krilla = "0.8"
+typemark-layout.workspace = true
+typemark-text.workspace = true

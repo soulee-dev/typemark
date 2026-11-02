@@ -1,0 +1,9 @@
+@import "default.css";
+
+body {
+  font-family: "Pretendard", "Noto Sans KR", sans-serif;
+  word-break: keep-all;
+}
+
+h1 { break-before: page; }
+h1:first-child { break-before: auto; }

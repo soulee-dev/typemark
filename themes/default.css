@@ -1,0 +1,19 @@
+@page {
+  size: A4;
+  margin: 20mm;
+}
+
+body {
+  font-size: 11pt;
+  line-height: 1.6;
+}
+
+h1 { font-size: 20pt; margin: 0 0 12pt; }
+h2 { font-size: 15pt; margin: 18pt 0 8pt; }
+h3 { font-size: 12pt; margin: 14pt 0 6pt; }
+p  { margin: 0 0 8pt; }
+
+pre {
+  background: #f4f4f4;
+  padding: 8pt;
+}

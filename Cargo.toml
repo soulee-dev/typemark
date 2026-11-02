@@ -1,0 +1,20 @@
+[workspace]
+resolver = "3"
+members = ["crates/*"]
+
+[workspace.package]
+version = "0.0.0"
+edition = "2024"
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/soulee-dev/typemark"
+authors = ["Soul Lee"]
+rust-version = "1.85"
+
+[workspace.dependencies]
+typemark = { path = "crates/typemark" }
+typemark-syntax = { path = "crates/typemark-syntax" }
+typemark-style = { path = "crates/typemark-style" }
+typemark-text = { path = "crates/typemark-text" }
+typemark-layout = { path = "crates/typemark-layout" }
+typemark-pdf = { path = "crates/typemark-pdf" }
+typemark-svg = { path = "crates/typemark-svg" }
